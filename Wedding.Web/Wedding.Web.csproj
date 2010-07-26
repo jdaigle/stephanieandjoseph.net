@@ -58,21 +58,43 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ReservationController.cs" />
+    <Compile Include="Controllers\StaticController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\background.jpg" />
+    <Content Include="Content\footer.png" />
+    <Content Include="Content\header_welcome.png" />
+    <Content Include="Content\nav\aboutus_gold.png" />
+    <Content Include="Content\nav\aboutus_silver.png" />
+    <Content Include="Content\nav\guest_gold.png" />
+    <Content Include="Content\nav\guest_silver.png" />
+    <Content Include="Content\nav\rsvp_gold.png" />
+    <Content Include="Content\nav\rsvp_silver.png" />
+    <Content Include="Content\nav\weddingparty_gold.png" />
+    <Content Include="Content\nav\weddingparty_silver.png" />
+    <Content Include="Content\nav\welcome_gold.png" />
+    <Content Include="Content\nav\welcome_silver.png" />
+    <Content Include="Content\site.css" />
+    <Content Include="Content\slice.png" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Views\Static\AboutUs.aspx" />
+    <Content Include="Views\Static\WeddingParty.aspx" />
+    <Content Include="Views\Static\GuestInfo.aspx" />
+    <Content Include="Views\Static\RSVP.aspx" />
+    <Content Include="Views\Static\Welcome.aspx" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Site.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

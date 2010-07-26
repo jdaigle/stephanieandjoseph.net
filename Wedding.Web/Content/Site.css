@@ -1,28 +1,94 @@
-/* Styles for validation helpers
------------------------------------------------------------*/
-.field-validation-error
-{
-    color: #ff0000;
+﻿body {
+	background-image: url('background.jpg');
+	background-repeat: repeat-x;
+	margin: 0px;
+	text-align: center;
+}
+#banner {
+	background-image: url('header_welcome.png');
+	width: 1000px;
+	height: 415px;
+	margin: 0px auto;
+}
+#navigation {
+	position: relative;
+	top: 302px;
+}
+#navigation a {
+	display: block;
+	width: 173px;
+	height: 93px;
+	float: right;
+}
+#preload {
+	height: 0px;
+}
+#navigation .rsvp {
+	background-image: url('nav/rsvp_silver.png');
+}
+#navigation .rsvp_hot, #navigation .rsvp:hover, #preload .rsvp {
+	background-image: url('nav/rsvp_gold.png');
+}
+#navigation .guest {
+	background-image: url('nav/guest_silver.png');
+}
+#navigation .guest_hot, #navigation .guest:hover, #preload .guest {
+	background-image: url('nav/guest_gold.png');
+}
+#navigation .weddingparty {
+	background-image: url('nav/weddingparty_silver.png');
+}
+#navigation .weddingparty_hot, #navigation .weddingparty:hover, #preload .weddingparty {
+	background-image: url('nav/weddingparty_gold.png');
+}
+#navigation .aboutus {
+	background-image: url('nav/aboutus_silver.png');
+}
+#navigation .aboutus_hot, #navigation .aboutus:hover, #preload .aboutus {
+	background-image: url('nav/aboutus_gold.png');
+}
+#navigation .welcome {
+	background-image: url('nav/welcome_silver.png');
+}
+#navigation .welcome_hot, #navigation .welcome:hover, #preload .welcome {
+	background-image: url('nav/welcome_gold.png');
+}
+#body {
+	background-image: url('slice.png');
+	background-repeat: repeat-y;
+	width: 1000px;
+	margin: 0px auto;
+	min-height: 50px;
+}
+#body-content {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+#body-content p {
+	margin: 0px;
+	margin-bottom: 15px;
+}
+#body-content p:last-child {
+	margin-bottom: 0px;
+}
+#footer {
+	background-image: url('footer.png');
+	width: 1000px;
+	height: 114px;
+	margin: 0px auto;
+}
+#footer-content {
+	text-align: center;
+	position: relative;
+	top: 85px;
 }
 
-.field-validation-valid
-{
-    display: none;
+
+.guest {
 }
 
-.input-validation-error
-{
-    border: 1px solid #ff0000;
-    background-color: #ffeeee;
-}
-
-.validation-summary-errors
-{
-    font-weight: bold;
-    color: #ff0000;
-}
-
-.validation-summary-valid
-{
-    display: none;
+.guest.example {
+	display: none;
 }

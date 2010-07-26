@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tying the Knot - Stephanie and Joseph</title>
+    <link href="<%= Url.Content("~/Content/site.css") %>" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <div id="banner">
+        <div id="navigation">            
+            <a class="rsvp" href="<%= Url.Action("rsvp") %>">
+            </a>
+            <a class="guest" href="<%= Url.Action("guestinfo") %>">
+            </a>
+            <a class="weddingparty" href="<%= Url.Action("weddingparty") %>">
+            </a>
+            <a class="aboutus" href="<%= Url.Action("aboutus") %>">
+            </a>
+            <a class="welcome" href="<%= Url.Action("welcome") %>">
+            </a>            
+        </div>
+    </div>
+    <div id="body">
+        <div id="body-content">
+            <asp:ContentPlaceHolder runat="server" ID="BodyContent" />
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-content">
+            (c) 2010 Cridion LLC, Software and Design
+        </div>
+    </div>
+    <div id="preload">
+        <div class="rsvp preload"></div>
+        <div class="guest preload"></div>
+        <div class="weddingparty preload"></div>
+        <div class="aboutus preload"></div>
+        <div class="welcome preload"></div>
+    </div>
+    <script src="<%= Url.Content("~/Scripts/jquery-1.4.1.min.js") %>" type="text/javascript"></script>    
+    <script type="text/javascript">
+        var actionName = "<%= ViewContext.RouteData.Values["action"] %>";
+        $(function () {
+            if (actionName.toLowerCase() == "welcome")
+                $("#navigation .welcome").addClass("welcome_hot");
+            if (actionName.toLowerCase() == "aboutus")
+                $("#navigation .aboutus").addClass("aboutus_hot");
+            if (actionName.toLowerCase() == "weddingparty")
+                $("#navigation .weddingparty").addClass("weddingparty_hot");
+            if (actionName.toLowerCase() == "guestinfo")
+                $("#navigation .guest").addClass("guest_hot");
+            if (actionName.toLowerCase() == "rsvp")
+                $("#navigation .rsvp").addClass("rsvp_hot");
+        });
+    </script>
+    <asp:ContentPlaceHolder runat="server" ID="javascript" />
+</body>
+</html>
