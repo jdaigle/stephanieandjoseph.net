@@ -22,5 +22,9 @@ namespace Wedding.Web.Controllers {
         public ActionResult RSVP() {
             return View();
         }
+
+        public ActionResult ThankYou() {
+            return View();
+        }
     }
 }

@@ -16,6 +16,18 @@ namespace Wedding.Web {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                string.Empty,
+                "guestlist",
+                new { controller = "reservations", action = "list" }
+                );
+
+            routes.MapRoute(
+                string.Empty,
+                "reservations/{action}",
+                new { controller = "reservations" }
+                );
+
+            routes.MapRoute(
                 "Default", // Route name
                 "{action}/{id}", // URL with parameters
                 new { controller = "Static", action = "Welcome", id = UrlParameter.Optional } // Parameter defaults
@@ -40,7 +52,7 @@ namespace Wedding.Web {
             SQLiteConnection.CreateFile(DatabaseFile);
             using (var connection = new SQLiteConnection("Data Source=" + DatabaseFile + ";Version=3;")) {
                 var command = connection.CreateCommand();
-                command.CommandText = "CREATE TABLE reservations ( id varchar(35) not null, name varchar(100) not null, reservationdate datetime not null, reservationcategory int not null )";
+                command.CommandText = "CREATE TABLE reservations ( id varchar(35) not null, name varchar(100) not null, reservationdate datetime not null, attending bool not null, underage bool not null )";
                 connection.Open();
                 command.ExecuteNonQuery();
                 connection.Close();

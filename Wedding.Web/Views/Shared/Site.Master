@@ -9,15 +9,15 @@
 <body>
     <div id="banner">
         <div id="navigation">            
-            <a class="rsvp" href="<%= Url.Action("rsvp") %>">
+            <a class="rsvp" href="<%= Url.Action("rsvp", "static") %>">
             </a>
-            <a class="guest" href="<%= Url.Action("guestinfo") %>">
+            <a class="guest" href="<%= Url.Action("guestinfo", "static") %>">
             </a>
-            <a class="weddingparty" href="<%= Url.Action("weddingparty") %>">
+            <a class="weddingparty" href="<%= Url.Action("weddingparty", "static") %>">
             </a>
-            <a class="aboutus" href="<%= Url.Action("aboutus") %>">
+            <a class="aboutus" href="<%= Url.Action("aboutus", "static") %>">
             </a>
-            <a class="welcome" href="<%= Url.Action("welcome") %>">
+            <a class="welcome" href="<%= Url.Action("welcome", "static") %>">
             </a>            
         </div>
     </div>
