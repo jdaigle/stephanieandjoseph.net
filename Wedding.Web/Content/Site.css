@@ -85,10 +85,40 @@
 	top: 85px;
 }
 
-
 .guest {
 }
 
 .guest.example {
 	display: none;
+}
+
+h1 {
+	color: #557f10;
+	font-size: 30px;
+	font-family:"Georgia", Times, serif;
+	text-align: left;
+	padding: 0px 25px 0px 25px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+h2 {
+	color: #557f10;
+	font-size: 25px;
+	font-family:"Georgia", Times, serif;
+	text-align: left;
+	padding: 0px 25px 0px 25px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+p {
+	color: #333333;
+	font-size: 14px;
+	font-family:"Tahoma", Verdana, san-serif;
+	line-height: 18px;
+	text-align: left;
+	padding: 0px 25px 0px 25px;
 }

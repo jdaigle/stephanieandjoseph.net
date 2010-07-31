@@ -1,4 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
 <asp:Content ContentPlaceHolderID="BodyContent" runat="server">
+    <!-- <div id = "img1"><img src="Content/gazebo.png" alt="Gazebo drawn by Ester Wilson" /></div> -->		   
+			<h1>Welcome</h1>
+			<p>Welcome to the wedding website of Stephanie and Joseph. We hope that you will be able to find all of the details about our wedding here. Most important, we look forward to seeing all of you on this special day. To RSVP, please go to the <a href="<%= Url.Action("RSVP", "Static") %>">RSVP</a> page.</p>
+			<!--<p>Together with our parents, we invite you to attend our wedding ceremony on October 9th, 2010 at 11:30am. Our ceremony will be held at The Marlow House located in Marietta, GA with the reception to follow. After the reception, the Mr. and Mrs. Daigle welcome you to their home for light refreshments and continued celebration. Directions can be found <a href="guestinfo.html">here</a>. </p> -->			
+			<p>Please feel free to email us at <a href="mailto:stephanieandjoseph@cridion.net"> stephanieandjoseph@cridion.net</a>  if you have any questions or if there is something you would like us to add.</p>
+			<div id = "img1"><img src="<%= Url.Content("~/Content/mockinvite.png") %>" alt="invitation" /></div>
+			<br/>
+			<h2>About The Marlow House</h2>
+			<p>The Marlow House is a charming Victorian house built in 1887 located close to the Marietta Square and is on the historic registry. The Marlow House was built by 37-year old Marietta resident, Miss Idelle Marlow. Miss Marlow married Newton Heggie of Augusta in 1890. Built as a rooming and boarding house, it provided a home and a steady income for Mrs. Heggie for 42 years. The house is a classic example of Victorian architecture with its gable roof, bay window and wrap-around porch. It was used as a boarding house, then apartments until the early 1980's when it was renovated and opened as Marietta's first Bed and Breakfast Inn. The house was renovated in 1985 and converted to use as a Special Events Facility and Bed & Breakfast Inn with three suites and two additional rooms. Periodic renovations have enhanced the main reception area as recently as 2000. There are 4 kitchens and 9 bathrooms in this 6,400 square foot house. The Marlow House is now used exclusively for Special Events and is no longer a Bed and Breakfast. In 2003, the house owners, Loretta David and Rebecca Rowden, opened The Marlow House Gallery, an an authorized Showcase Gallery featuring Thomas Kinkade "Painter of Light" artwork and other fine collectibles and gifts.</p>
 </asp:Content>

@@ -72,6 +72,7 @@
     <Content Include="Content\background.jpg" />
     <Content Include="Content\footer.png" />
     <Content Include="Content\header_welcome.png" />
+    <Content Include="Content\mockinvite.png" />
     <Content Include="Content\nav\aboutus_gold.png" />
     <Content Include="Content\nav\aboutus_silver.png" />
     <Content Include="Content\nav\guest_gold.png" />
