@@ -42,8 +42,8 @@ namespace Wedding.Web {
 
             RegisterRoutes(RouteTable.Routes);
 
-            // Setup database and schema
-            DatabaseFile = HttpContext.Current.Request.PhysicalApplicationPath + "wedding.sqlite";
+            // Setup database and schema            
+            DatabaseFile = HttpRuntime.AppDomainAppPath + "wedding.sqlite";
             if (!File.Exists(DatabaseFile))
                 CreateDatabaseAndSchema();
         }

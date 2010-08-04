@@ -69,6 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\aboutus.png" />
     <Content Include="Content\background.jpg" />
     <Content Include="Content\footer.png" />
     <Content Include="Content\header_welcome.png" />

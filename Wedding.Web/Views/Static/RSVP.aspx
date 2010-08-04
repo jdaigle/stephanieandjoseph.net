@@ -54,10 +54,13 @@
     </script>
 </asp:Content>
 <asp:Content ContentPlaceHolderID="BodyContent" runat="server">
-    <div style="width: 400px; text-align:left; margin: 0px auto;">
-        <p>
-            This is some text that explains how to RSVP. Weeeeee!
-        </p>
+    <h1>Guest RSVP</h1>
+    <p>
+        Please indicate all guests that will be attending. If you were invited but cannot attend then please
+        indicate that below as well. If you are bringing a child under the age of 6, please let us know
+        so we can coordinate with the caterer.
+    </p>
+    <div style="width: 400px; text-align:left; margin: 0px auto;font-family:Tahoma, Verdana, san-serif;color: #333333;font-size:14px;">        
         <div id="guests">
         </div>
         <div style="margin-top:10px;">
