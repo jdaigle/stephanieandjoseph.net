@@ -5,7 +5,7 @@
 			<h1>Welcome</h1>
 			<p>Welcome to the wedding website of Stephanie and Joseph. We hope that you will be able to find all of the details about our wedding here. Most important, we look forward to seeing all of you on this special day. To RSVP, please go to the <a href="<%= Url.Action("RSVP", "Static") %>">RSVP</a> page.</p>
 			<!--<p>Together with our parents, we invite you to attend our wedding ceremony on October 9th, 2010 at 11:30am. Our ceremony will be held at The Marlow House located in Marietta, GA with the reception to follow. After the reception, the Mr. and Mrs. Daigle welcome you to their home for light refreshments and continued celebration. Directions can be found <a href="guestinfo.html">here</a>. </p> -->			
-			<p>Please feel free to email us at <a href="mailto:stephanieandjoseph@cridion.net"> stephanieandjoseph@cridion.net</a>  if you have any questions or if there is something you would like us to add.</p>
+			<p>Please feel free to e-mail us at <a href="mailto:stephanieandjoseph@cridion.net"> stephanieandjoseph@cridion.net</a>  if you have any questions or if there is something you would like us to add.</p>
 			<div id = "img1"><img src="<%= Url.Content("~/Content/mockinvite.png") %>" alt="invitation" /></div>
 			<br/>
 			<h2>About The Marlow House</h2>

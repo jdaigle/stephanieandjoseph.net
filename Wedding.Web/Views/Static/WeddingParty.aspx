@@ -8,7 +8,7 @@
 <p>Laura Browne - My best friend since 6th grade science fair, Laura has been there through all of my ups and downs. Her favorite Disney character is Gus and Jaq, the mice in Cinderella.</p>
 
 <h3>Bridesmaid</h3>
-<p>Erin Cook - The best girlfriend one could ever hope to find with the ratio at Georgia Tech, Erin has always been there when I wanted Moe's and an afternoon of gossip. Her favorite Disney character is</p>
+<p>Erin Cook - The best girlfriend one could ever hope to find with the ratio at Georgia Tech, Erin has always been there when I wanted Moe's and an afternoon of gossip. Her favorite Disney character is Mulan.</p>
 
 <h3>Best Man</h3>
 <p>David Sokol - David is one of Jospeh's long time friends from Boy Scouts and high school. His favorite Disney character is Gaston from Beauty and the Beast.</p>
@@ -21,7 +21,7 @@
 
 <h3>Our Parents</h3>
 <p>We would like to thank our parents for all of the help they have provided us in planning our wedding and moving into our new home.</p>
-<p>Randy and Brenda Sellers - Randy's favorite Disney character is Jiminy Cricket. Brenda's favorite character is Bambi</p>
-<p>Norman and Joanne Daigle - Norm's favorite Disney character is . Joanne's favorite character is</p>
+<p>Randy and Brenda Sellers - Randy's favorite Disney character is Jiminy Cricket. Brenda's favorite character is Bambi.</p>
+<p>Norman and Joanne Daigle - Joanne's favorite character is Minnie Mouse.</p>
  
 </asp:Content>

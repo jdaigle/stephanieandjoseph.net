@@ -82,7 +82,7 @@
 #footer-content {
 	text-align: center;
 	position: relative;
-	top: 85px;
+	top: 87px;
 }
 
 .guest {
@@ -97,9 +97,9 @@ h1 {
 	font-size: 30px;
 	font-family:"Georgia", Times, serif;
 	text-align: left;
-	padding: 0px 25px 0px 25px;
+	padding: 5px 25px 0px 25px;
 	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	font-weight: normal;
 }
 
@@ -110,7 +110,18 @@ h2 {
 	text-align: left;
 	padding: 0px 25px 0px 25px;
 	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+
+h3 {
+	color: #557f10;
+	font-size: 16px;
+	font-family: "Tahoma", Verdana, san-serif;
+	text-align: left;
+	padding: 0px 25px 0px 25px;
+	margin-top: 0px;
+	margin-bottom: 15px;
 	font-weight: normal;
 }
 
@@ -118,7 +129,32 @@ p {
 	color: #333333;
 	font-size: 14px;
 	font-family:"Tahoma", Verdana, san-serif;
-	line-height: 18px;
+	line-height: 20px;
 	text-align: left;
-	padding: 0px 25px 0px 25px;
+	padding: 0px 25px 5px 25px;
+}
+
+#img1{
+	margin: 0px 25px 0px 25px;
+	margin: 0px auto;
+}
+
+#img2{
+	border: 1px;
+	border-style: solid;
+	border-color: #999999;
+	float: right;
+	margin: 0px 25px 15px 25px;
+}
+
+a{
+	color: #557f10;
+}
+
+a:visited{
+	color: #456a08;
+}
+
+a:active{
+	color: #456a08;
 }
