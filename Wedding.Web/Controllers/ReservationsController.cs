@@ -37,7 +37,7 @@ namespace Wedding.Web.Controllers {
                 guest.Underage.ToString());
         }
 
-        public ActionResult List() {
+        public ActionResult List(string orderBy) {
             var guests = new Guest[0];
             using (var connection = new SQLiteConnection("Data Source=" + MvcApplication.DatabaseFile + ";Version=3;")) {
                 var command = connection.CreateCommand();
@@ -47,7 +47,16 @@ namespace Wedding.Web.Controllers {
                     guests = HydrateGuests(reader);
                 connection.Close();
             }
-            ViewData["guests"] = guests.OrderBy(x => x.ReservationDate).OrderBy(x => x.Name).ToArray();
+            switch (orderBy.ToLower()) {
+                case "date":
+                    guests = guests.OrderBy(x => x.Name).OrderByDescending(x => x.ReservationDate).ToArray();
+                    break;
+                case "name":
+                default:
+                    guests = guests.OrderBy(x => x.ReservationDate).OrderBy(x => x.Name).ToArray();
+                    break;
+            }
+            ViewData["guests"] = guests;
             return View();
         }
 

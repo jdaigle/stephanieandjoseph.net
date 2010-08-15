@@ -9,6 +9,10 @@
             <b><%= guests.Count(x => !x.Underage) %></b> adults and <b><%= guests.Count(x => x.Underage) %></b> children under 6.
         </p>
         <h3>Guest List</h3>
+        <p>
+            <%= Html.ActionLink("Sort By Name", "List", new { orderBy = "name" }) %>
+            <%= Html.ActionLink("Sort By Date", "List", new { orderBy = "date" }) %>
+        </p>
         <% foreach (var guest in guests) { %>        
         <div style="padding: 5px;">
             <b><%= guest.Name %></b> confirmed on <%= guest.ReservationDate.ToShortDateString() %> that he/she <b><%= guest.Attending ? "is" : "is not" %> planning to attend</b> and <%= guest.Underage ? "is" : "is not" %> under age 6.

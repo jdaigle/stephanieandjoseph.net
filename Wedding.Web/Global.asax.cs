@@ -17,8 +17,8 @@ namespace Wedding.Web {
 
             routes.MapRoute(
                 string.Empty,
-                "guestlist",
-                new { controller = "reservations", action = "list" }
+                "guestlist/{orderBy}",
+                new { controller = "reservations", action = "list", orderBy = "name" }
                 );
 
             routes.MapRoute(
