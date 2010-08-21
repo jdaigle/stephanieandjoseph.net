@@ -17,7 +17,7 @@
 <p>William Pinner - Joseph has known Will since they were both in Boy Scouts. And even though Will went to UGA, he and Joseph have remained friends. His favorite Disney character is Darkwing Duck.</p>
 
 <h3>Flower girl</h3>
-<p>Aubrey and Stacey Wansing - My niece, Aubrey, will be carried by my siste,r Stacey, preceding the mothers. While Stacey and I bicker like sisters, she is a great friend full of advise and wisdom. I would like to thank her for helping me make our wedding day beautiful. Stacey's favorite Disney character is Ariel from <i>The Littler Mermaid</i>. Aubrey's favorite character is Tinker Bell. </p>
+<p>Aubrey and Stacey Wansing - My niece, Aubrey, will be carried by my sister, Stacey, preceding the mothers. While Stacey and I bicker like sisters, she is a great friend full of advise and wisdom. I would like to thank her for helping me make our wedding day beautiful. Stacey's favorite Disney character is Ariel from <i>The Littler Mermaid</i>. Aubrey's favorite character is Tinker Bell. </p>
 
 <h3>Our Parents</h3>
 <p>We would like to thank our parents for all of the help they have provided us in planning our wedding and moving into our new home.</p>
